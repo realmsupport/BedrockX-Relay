@@ -1,5 +1,5 @@
 const { EventEmitter, once } = require('node:events')
-const { WebSocket } = require('ws')
+const WebSocket = require('ws')
 const { SignalStructure } = require('../nethernet/index')
 const { v4fast: v4 } = require("uuid-1345")
 const JSONBigInt = require('json-bigint')({ useNativeBigInt: true })
